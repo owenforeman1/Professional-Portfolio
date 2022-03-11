@@ -14,10 +14,25 @@
     "Lucida Sans", Arial, sans-serif;
     background-color: blue;
     color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
   }
 
   header h1 {
     display: inline-block;
     font-size: 48px;
   }
-  
+
+  header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24px;
+
+  }
+
+  header ul li {
+      margin: 10px;
+  }
