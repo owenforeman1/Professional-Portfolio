@@ -6,6 +6,7 @@
 
   body {
       background-color: darkcyan;
+      min-height: 100%;
   }
 
   header {
@@ -25,7 +26,7 @@
   }
 
   header ul {
-    list-style-type: none;
+    list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
