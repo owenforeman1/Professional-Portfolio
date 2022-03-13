@@ -82,16 +82,19 @@ header ul li:hover{
   .content {
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .content-header {
     width: 25vw;
+    text-align: right;
+    padding: 10px;
   }
 
   .paragraphs {
     border-left:3px solid #004666;
     width: 75vw;
+    margin: 10px;
     padding-left: 10px;
   }
 
