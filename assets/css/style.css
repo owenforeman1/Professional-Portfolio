@@ -88,14 +88,27 @@ header ul li:hover{
   .content-header {
     width: 25vw;
     text-align: right;
-    padding: 10px;
+    margin: 10px;
+    border-right:3px solid #004666;
+    padding-right: 10px;
   }
 
   .paragraphs {
-    border-left:3px solid #004666;
+  
     width: 75vw;
     margin: 10px;
     padding-left: 10px;
+    display: flex;
+  }
+
+  .contactlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75vw;
+    margin: 10px;
+    padding-left: 10px;
+
   }
 
   /* tablet */
