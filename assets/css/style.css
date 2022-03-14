@@ -2,6 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
     
   }
 
@@ -14,13 +16,19 @@
     height: 100%;
 }
 
+ main {
+    margin: auto;
+    max-width: 1024px;
+}
+
 /* The hero image */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
 
-  /* Set a specific height */
+  
   height: 50%;
+  
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -40,9 +48,7 @@
 }
 
   header {
-      padding: 20px;
-      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+    padding: 20px;
     background-color: #007EA7;
     color: white;
     flex-direction: row;
@@ -55,10 +61,14 @@
     font-size: 48px;
     width: 358px;
     border: 8px solid #004666;
-    padding: 0px;
+    padding: 1px;
     margin: 10px;
     border-radius: 15px
   }
+
+h2 {
+  font-size: 32px;
+}
 
   header ul {
     list-style: none;
@@ -66,12 +76,11 @@
     flex-direction: row;
     align-items: center;
     font-size: 24px;
-
   }
 
   /* hover ul */
 header ul li:hover{
-  background-color: #8367C7;
+  color: #8367C7;
   cursor: pointer;
 }
 
@@ -86,29 +95,57 @@ header ul li:hover{
   }
 
   .content-header {
-    width: 25vw;
     text-align: right;
     margin: 10px;
-    border-right:3px solid #004666;
+    border-right:4px solid #004666;
     padding-right: 10px;
   }
 
   .paragraphs {
-  
-    width: 75vw;
+    /* width: 75vw; */
     margin: 10px;
     padding-left: 10px;
     display: flex;
+  }
+
+  .work-images{
+    /* width: 75vw; */
+    margin: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+position: relative;
+width: 48%;
+    margin: 1%;
+    border: 2px solid black;
+  }
+
+  .card.double {
+    width: 100%;
+  }
+
+  .card .card-title {
+position: absolute;
+    bottom: 0;
+    margin-bottom: 25px;
+    padding: 5px;
+    background-color: deepskyblue;
+  }
+
+  .card img { width: 100%;
+
   }
 
   .contactlinks {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 75vw;
     margin: 10px;
     padding-left: 10px;
-
   }
 
   /* tablet */

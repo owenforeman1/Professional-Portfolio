@@ -1,0 +1,11 @@
+homework to do 
+comment and organize in logical way
+.addheader links 
+get images 
+.add reset.css 
+add pseudo classes to header links?
+green for web color?
+make header links have button effects
+This homework have the same layout but different colors and name and stufff
+paraghraph clas vchange
+add flex box stuff to images
