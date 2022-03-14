@@ -9,3 +9,9 @@ make header links have button effects
 This homework have the same layout but different colors and name and stufff
 paraghraph clas vchange
 add flex box stuff to images
+have h2 column for mobile
+.fix header and hero for mobile
+contact me line fix
+add alts to images
+mobile contact me run off 
+do asbout me 
