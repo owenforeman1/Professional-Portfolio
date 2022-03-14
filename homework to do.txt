@@ -15,3 +15,6 @@ contact me line fix
 add alts to images
 mobile contact me run off 
 do asbout me 
+go back to horiseon and update read me with lionk
+nav in header?
+add hover affects to images 

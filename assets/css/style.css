@@ -102,14 +102,12 @@ header ul li {
 }
 
 .paragraphs {
-  /* width: 75vw; */
   margin: 10px;
   padding-left: 10px;
   display: flex;
 }
 
-.work-images {
-  /* width: 75vw; */
+.work-images { 
   margin: 10px;
   padding-left: 10px;
   display: flex;
@@ -187,7 +185,10 @@ header ul li {
     border-bottom:4px solid #004666;
     text-align: center;
   }
-  .content{
+  .content {
     flex-direction: column;
+  }
+  .contactlinks {
+width: 90%;
   }
 }
