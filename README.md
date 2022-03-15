@@ -17,7 +17,7 @@ Open the index.html in a browser to view.
 
 ## Usage
 
-(./assets/images/screenshot.png)
+![](./assets/images/screenshot.png)
 [Deployed Page](https://owenforeman1.github.io/Professional-Portfolio/)
 
 ## License
