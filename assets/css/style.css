@@ -21,6 +21,12 @@ main {
   max-width: 1024px;
 }
 
+h1 {
+  font-style: oblique;
+  font-size: 50px;
+  color: lemonchiffon;
+}
+
 /* The hero image */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -43,6 +49,7 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  
 }
 
 header {
@@ -98,13 +105,14 @@ header ul li {
   border-right: 4px solid #004666;
   padding-right: 10px;
   flex-shrink: 0;
-  width: 250px;
+  width: 130px;
 }
 
 .paragraphs {
   margin: 10px;
   padding-left: 10px;
   display: flex;
+  flex-direction: column;
 }
 
 .work-images { 
@@ -167,9 +175,10 @@ header ul li {
   header ul {
     flex-direction: column;
   }
+  
 }
 /* phone */
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 420px) {
   
   header,
   main {
