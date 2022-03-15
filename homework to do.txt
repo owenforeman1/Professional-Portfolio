@@ -1,19 +1,19 @@
 homework to do 
 comment and organize in logical way
 .addheader links 
-get images 
+.get images 
 .add reset.css 
-add pseudo classes to header links?
+.add pseudo classes to header links?
 green for web color?
-make header links have button effects
-This homework have the same layout but different colors and name and stufff
-paraghraph clas vchange
-add flex box stuff to images
-have h2 column for mobile
+.make header links have button effects
+.This homework have the same layout but different colors and name and stufff
+.paraghraph clas vchange
+.add flex box stuff to images
+.have h2 column for mobile
 .fix header and hero for mobile
-contact me line fix
-add alts to images
-mobile contact me run off 
+.contact me line fix
+.add alts to images
+.mobile contact me run off 
 do asbout me 
 go back to horiseon and update read me with lionk
 nav in header?

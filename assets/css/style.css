@@ -52,6 +52,7 @@ h1 {
   
 }
 
+/* header start */
 header {
   padding: 20px;
   background-color: #007ea7;
@@ -93,6 +94,7 @@ header ul li {
   margin: 10px;
 }
 
+/* main content */
 .content {
   display: flex;
   flex-direction: row;
@@ -115,7 +117,8 @@ header ul li {
   flex-direction: column;
 }
 
-.work-images { 
+/* images */
+.work-images {
   margin: 10px;
   padding-left: 10px;
   display: flex;
@@ -147,6 +150,7 @@ header ul li {
   vertical-align: top;
 }
 
+/* links and effects */
 .contactlinks {
   display: flex;
   align-items: center;
@@ -175,11 +179,12 @@ header ul li {
   header ul {
     flex-direction: column;
   }
-  
+
 }
+
 /* phone */
 @media screen and (max-width: 420px) {
-  
+
   header,
   main {
     flex-direction: column;
@@ -191,13 +196,13 @@ header ul li {
   }
   .content-header {
     width: 100%;
-    border-bottom:4px solid #004666;
+    border-bottom: 4px solid #004666;
     text-align: center;
   }
   .content {
     flex-direction: column;
   }
   .contactlinks {
-width: 90%;
+    width: 90%;
   }
 }

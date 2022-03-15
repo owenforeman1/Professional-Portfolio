@@ -2,16 +2,9 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+I wanted to get a starter portfolio for myself so I have a semi permanant place to display my work. It is a basic portfolio with a few elements to add a bit of style. With flex boxes I was able to make my page pretty and work for any device from a desktop to a mobile phone. I learned a lot about flex boxes and effects on text and images. 
 
 ## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Usage](#usage)
