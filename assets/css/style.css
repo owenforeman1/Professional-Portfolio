@@ -49,7 +49,6 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-
 }
 
 /* header start */
@@ -112,9 +111,10 @@ header ul li {
 
 .paragraphs {
   margin: 10px;
+  margin-top: 15px;
   padding-left: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /* images */
@@ -148,6 +148,10 @@ header ul li {
 .card img {
   width: 100%;
   vertical-align: top;
+}
+
+.me {
+  max-width: 25%;
 }
 
 /* links and effects */
@@ -184,12 +188,16 @@ footer {
   header ul {
     flex-direction: column;
   }
-
+  .paragraphs {
+    flex-direction: column;
+  }
+  .me {
+    max-width: 100%;
+  }
 }
 
 /* phone */
 @media screen and (max-width: 420px) {
-
   header,
   main {
     flex-direction: column;
@@ -199,6 +207,7 @@ footer {
     width: 191px;
     margin: auto;
   }
+
   .content-header {
     width: 100%;
     border-bottom: 4px solid #004666;

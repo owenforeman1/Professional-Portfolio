@@ -18,3 +18,4 @@ do asbout me
 go back to horiseon and update read me with lionk
 nav in header?
 add hover affects to images 
+add image of self in about me
