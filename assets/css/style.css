@@ -137,6 +137,7 @@ header ul li {
   margin: 1%;
   border: 2px solid #8367c7;
   transition: box-shadow 0.5s;
+  background-color: #78a1a9;
 }
 
 .card.double {
@@ -154,6 +155,9 @@ header ul li {
 .card img {
   width: 100%;
   vertical-align: top;
+  overflow: hidden;
+  max-height: 250px;
+  object-fit: contain;
 }
 /* image of me */
 .me {
