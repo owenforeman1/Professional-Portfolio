@@ -152,6 +152,15 @@ header ul li {
   background-color: deepskyblue;
 }
 
+.card .cardSubtitle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 25px;
+  padding: 5px;
+  background-color: deepskyblue;
+}
+
 .card img {
   width: 100%;
   vertical-align: top;
@@ -224,6 +233,14 @@ footer {
     font-size: 24px;
     width: 191px;
     margin: auto;
+  }
+
+  .work-images{
+    flex-direction: column;
+  }
+
+  .card{ 
+    width: 100%;
   }
 
   .content-header {
